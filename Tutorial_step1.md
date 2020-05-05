@@ -29,3 +29,46 @@
   - suggestion for extension/ exercise
 - plain program
   - source code stripped of all comments
+
+
+# run the tutorial
+
+    // decription of file dependencies & set up for compilation
+    cmake .
+    // compile all the soucres into an executable
+    make
+    // run the executable
+    make run
+# General suggestions
+
+- think about documenting the code
+- come up with ways to test the min-program
+- Software carpentry for:
+  - version control
+  - make files
+  - testing
+  - Article: Best practice for scientific computing
+- debugger: lecture 25
+# step-1
+
+## what this program does
+
+two techniques
+- syntax for generating triangulation objects
+- elements of simple loops over all cells
+
+three concept of fem
+- an object of type **Triangulation** for the mesh
+- call the **GridGenerator** functions to generate mesh
+- **Iterator** to loop over all cells and iterators on mesh mesh-like containers
+
+
+Plain code of step-1
+
+    
+
+    int main()
+    {
+        first_grid();
+        second_grid();
+    }
